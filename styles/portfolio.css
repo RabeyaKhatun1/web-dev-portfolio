@@ -1,0 +1,155 @@
+/* nav styles  */
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <400>;
+  font-style: normal;
+  font-variation-settings:
+    "width" 100;
+ 
+}
+.text-primary{
+    color:rgb(211, 114, 4);
+}
+
+nav{
+    display: flex;
+  align-items: center;
+  justify-content: space-between  ;
+ margin-left: 226px;
+  
+     
+}
+nav-style{ 
+    font-weight: bolder;
+    font-size: 400;
+}
+nav ul li {
+       list-style: none;
+     margin: 51px; 
+     }
+     
+nav  li a{
+    text-decoration: none;
+    font-size: 20px;
+
+    
+   
+}
+    
+.dark    {
+    color: rgb(48, 38, 38);
+}
+nav ul{
+    display: flex;
+    /* margin: 0 auto; */
+    align-items: center;
+}
+/* nav h3{ */
+    /* margin-right: 1253px; */
+    /* margin-top: 68px; */
+/* margin-left:226px ; */
+/* } */
+.class{
+    /* margin-top: 372px; */
+}
+.btn-primary{
+    background-color: #FD6E0A;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding: 18px  35px;
+    border-radius: 5px;
+    font-size: 20px;
+    border: none;
+}
+.section{
+    padding-left: 1550px;
+    size: 0.5%px;
+    /* margin-top: px; */
+}
+h3{
+   font-size: 2em; 
+}
+h1{
+    font-size: 4em;
+}
+/* banner styles */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 230px ;
+}
+.banner greetings{
+font-size: 45px;
+font-weight: 600px;
+}
+.banner-content{
+    max-width:580px;
+}
+.banner title{
+    display: flex;
+    font-weight: bold;
+    font: size 850px; ;
+}
+    .banner-description{
+        font-size: 18px;
+    }
+    .banner-profile-pic{
+        width: 580px;
+    }
+    /* header */
+    .header{
+        background-image: url(../images/developer.png) ,url(../images/header_bg.png);
+        background-repeat: no-repeat;
+        background-position: top left , bottom right;
+    }
+    .section title{
+        font-size: 35px;
+        font-width:bold ;
+        color: rgb(41, 37, 37);
+    }
+    .section-description{
+        font-size: 18;
+        color: rgb(51, 40, 40);
+    }
+    .secondary-bg{
+        background-color: rgb(255, 235, 208);
+    }
+    /* .about styles */
+    .about{
+        border-radius: 10px;
+        /* align-items: center; */
+        padding:130px 150px ;
+        text-align: center;
+       
+    }
+    /* main styles */
+    main{
+        max-width: 1140px;
+        margin:0 auto;
+    }
+    .main section{
+         margin-top: 130px;
+          margin-bottom: 130px;
+    }
+    .item-description{
+        font-weight:bold ;
+    }
+    .about-items{
+      display: flex;
+    /* flex-wrap: nowrap; */
+        justify-content: space-around;
+    }
+.text-center{
+    text-align: center;
+}
+/* skill section styles */
+.skills-container{
+display: flex;
+gap: 24px ;
+}
+.skill{
+padding: 30px;
+box-shadow: 0px 6px 50px 0px rgb(206, 189, 189);
+}
